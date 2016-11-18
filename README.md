@@ -19,68 +19,65 @@ library(dplyr)
 
 
 ```r
-okkar_gildi() %>% 
-  knitr::kable()
+okkar_gildi() %>% knitr::kable()
 ```
 
 
 
-gildi          txt                                                                                                    stofnun                               
--------------  -----------------------------------------------------------------------------------------------------  --------------------------------------
-Metnaður       Við gerum kröfu til okkar sjálfra um:                                                                  TM Software                           
-Í þágu okkar                                                                                                          LÍÚ                                   
-Stormur        Lítilsháttar skemmdir á mannvirkjum. Varla hægt að ráða sér á bersvæði. Glórulaus bylur ef snjóar.     Veðurstofan                           
-Forysta        Við eigum frumkvæði að umbótum.                                                                        Utanríkisráðuneytið                   
-Velferð        Við leitumst við að auka lífsgæði fjölskyldunnar til framtíðar                                         Greiningar- og ráðgjafarstöð ríkisins 
-Árangur        Við höfum hagkvæmni og skilvirkni að leiðarljósi.                                                      Utanríkisráðuneytið                   
-Ábyrgð                                                                                                                Baggalútur                            
-Árangur        Við gegnum mikilvægu þjónustuhlutverki.                                                                Utanríkisráðuneytið                   
-Virðing        Virðum umhverfið og náttúruna                                                                          Landsnet                              
-13             Klór                                                                                                   Carlsberg Laboratory                  
+gildi                             txt                                                                                                                                                                                                     stofnun                 
+--------------------------------  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  ------------------------
+3                                 Ein baðferð á fjölskyldu                                                                                                                                                                                Baggalútur              
+Lævísi                                                                                                                                                                                                                                    Baggalútur              
+Þekking                           Þekking á náttúrufari er forsenda fyrir farsælli sambúð lands og þjóðar. Við byggjum starf okkar á rannsóknum á náttúru landsins og þekkingu á fagsviðum Veðurstofunnar.                                Veðurstofan             
+Metnaður                          Við höfum mikinn metnað fyrir framgangi félagsins og stefnum að því að gera Fjölni að enn frekara stórveldi í íþróttastarfi.  Við höfum metnað fyrir afrekum allra iðkenda í öllum deildum félagsins.   Ungmennafélagið Fjölnir 
+Fárviðri                          Allt lauslegt fýkur, þar á meðal möl og jafnvel stórir steinar. Kyrrstæðir bílar geta oltið eða fokið. Heil þök tekur af húsum. Skyggni oftast takmarkað, jafnvel í þurru veðri.                        Veðurstofan             
+Fyrirtækisandinn                  sendiherra Rúmfatalagersins                                                                                                                                                                             Rúmfatalagerinn         
+Ofsaveður                         Miklar skemmdir á mannvirkjum. Útivera á bersvæði hættuleg. Rýfur hjarn, lyftir möl og grjóti.                                                                                                          Veðurstofan             
+Fagmennska                        Fagmennska felur í sér að verk séu unnin heiðarlega, á grundvelli fullnægjandi þekkingar og í samræmi við lög, reglur og viðurkennt verklag.                                                            Vinnumálastofnun        
+Heiðarleiki- við sýnum virðingu   Við virðum viðskiptavini okkar, samstarfsfólk og fyrirtækið.                                                                                                                                            iss                     
+Árangur                           Við vinnum af fagmennsku og metnaði.                                                                                                                                                                    Utanríkisráðuneytið     
 
 ### Not happy, run the stuff again:
 
 ```r
-okkar_gildi() %>% 
-  knitr::kable()
+okkar_gildi() %>% knitr::kable()
 ```
 
 
 
-gildi           txt                                                                                                                                                    stofnun             
---------------  -----------------------------------------------------------------------------------------------------------------------------------------------------  --------------------
-Virði           Gagnkvæmur ávinningur: Gagnkvæmur ávinningur, arðsemi og vöxtur verður til á grundvelli skilvirkni, trausts og skilnings á þörfum viðskiptavina.       Borgun              
-Hvassviðri      Trjágreinar brotna. Erfitt að ganga á móti vindinum. Menn baksa á móti vindi. Skyggni í snjókomu verður lítið sem ekkert.                              Veðurstofan         
-We fail to…     … make beer that is watery and tasteless. In our world beer challenges people’s taste buds – whether it’s in a bitter, spicy, sour or fruity manner.   Mikkeller Brewery   
-Traust          Við eigum góð samskipti við hagsmunaaðila.                                                                                                             Utanríkisráðuneytið 
-Forysta         Við sýnum framsækni og áræðni.                                                                                                                         Utanríkisráðuneytið 
-Metnaður        Árangur.                                                                                                                                               TM Software         
-4               Einn flugeldur, meðalstór, á bæjarfélag.                                                                                                               Baggalútur          
-Sveigjanleiki   Við vinnum að stöðugum endurbótum                                                                                                                      TM Software         
-Áreiðanleiki    • Gæði vöru og þjónustu eru fyrsta flokks.                                                                                                             Ölgerðin            
-Ábyrgð          Við erum ábyrgð í störfum okkar í samræmi við það mikilvæga samfélagslega hlutverk sem Landsnet hefur                                                  Landsnet            
+gildi                               txt                                                                                                                                                                       stofnun                      
+----------------------------------  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------  -----------------------------
+Jákvæðni                            Við fögnum árangri                                                                                                                                                        MS                           
+3                                   Appelsínusafi                                                                                                                                                             Carlsberg Laboratory         
+snörp                                                                                                                                                                                                         Reginn fasteignafélag        
+Metnaður                            Askja leggur metnað sinn í að veita starfsfólki sínu þann stuðning og umhverfi sem til þarf til að því sé kleift að veita viðskiptavinum fyrirtækisins afburðaþjónustu.   Bílaumboðið Askja            
+Verslunarmaðurinn                   áreiðanlegur                                                                                                                                                              Rúmfatalagerinn              
+Öryggi                              Við höfum öryggi ávallt í fyrirrúmi                                                                                                                                       Vegagerðin                   
+Fyrirtækisandinn                    samstarfsfýsi                                                                                                                                                             Rúmfatalagerinn              
+VIÐ STYÐJUM KIRKJU GUÐS Á ÍSLANDI   Hin staðbundna kirkja er von heimsins og við getum gert meira þegar við stöndum saman                                                                                     Vegurinn                     
+Jöfnuður                            Kerlingarfjöll → Fjölskyldufjöll                                                                                                                                          Baggalútur                   
+Afli                                                                                                                                                                                                          Félag kvenna í atvinnulífinu 
 
 ### And again, ... :
 
 ```r
-okkar_gildi() %>% 
-  knitr::kable()
+okkar_gildi() %>% knitr::kable()
 ```
 
 
 
-gildi             txt                                                                                                                                                                                                                                                                                                                                                                                                                 stofnun                   
-----------------  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  --------------------------
-Traust            Sýnum hvert öðru trúnað og traust. Tökum ábyrgð á verkefnum –  veitum stuðning og leiðsögn við að fylgja þeim eftir.                                                                                                                                                                                                                                                                                                Fiskistofa                
-Framsækni         Við erum forsjál, vinnusöm og skapandi.                                                                                                                                                                                                                                                                                                                                                                             Grindavíkurbær            
-0                 American beer                                                                                                                                                                                                                                                                                                                                                                                                       Carlsberg Laboratory      
-Framsækni         • Við ætlum alltaf að vera feti framar í þjónustu, nýjungum og vöruúrvali                                                                                                                                                                                                                                                                                                                                           Ölgerðin                  
-Fagmennska        Starfsreynsla lögmanna LR er áratugalöng og hefur getið af sér yfirgripsmikla sérþekkingu á ráðgjöf og lögfræðiþjónustu sem við kemur flestum sviðum lögfræðinnar. Reynsla og fagþekking er hámörkuð með miðlun upplýsinga og reynslu á milli starfsmanna stofunnar og samstarfi við lögfræðistofur um allan heim. Þannig veitir LR skjólstæðingum sínum sem allra bestu lögfræðiþjónustu hvar sem er í heiminum.   Lögfræðistofa Reykjavíkur 
-Traust            Eftirlit og þjónusta, unnin af fagmennsku með jafnræði að leiðarljósi.                                                                                                                                                                                                                                                                                                                                              Fiskistofa                
-Vilji             Göngum skrefi lengra: Með framsækni, metnaði og dugnaði - ásamt góðu viðmóti, heilindum og þjónustu náum við skrefi lengra og framúrskarandi árangri.                                                                                                                                                                                                                                                               Borgun                    
-Við erum dugleg   við vinnum vel og hlífum okkur ekki, af því að við vitum að þannig tekst okkur að bæta hag viðskiptavina okkar.                                                                                                                                                                                                                                                                                                     Hagar                     
-7                 Stranglega bannað er að blogga um ástandið um jól og áramót.                                                                                                                                                                                                                                                                                                                                                        Baggalútur                
-Virðing           Erum ábyrgð í störfum þar sem öryggi er haft að leiðarljósi                                                                                                                                                                                                                                                                                                                                                         Landsnet                  
+gildi                 txt                                                                                                                                                                                                                                                                                                                                           stofnun                   
+--------------------  --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  --------------------------
+Sveigjanleiki         Við vinnum að stöðugum endurbótum                                                                                                                                                                                                                                                                                                             TM Software               
+Jákvæðni              • Við erum ein liðsheild og allir leggja sitt að mörkum til að ná markmiðum fyrirtækisins.                                                                                                                                                                                                                                                    Ölgerðin                  
+ÁBYRGÐ                Ábyrgðin felur í sér nauðsynlegt taumhald á frelsinu. Þegar fólk gengur frjálst til verka ber það líka ábyrgð á þeim. Í Garðaskóla afsökum við ekki framkomu okkar, við erum stolt af verkum okkar, við kennum ekki öðrum um það sem fer úrskeiðis og við forðumst ekki áskoranir. Við stöndum með sjálfum okkur sem ábyrgir einstaklingar.   Garðaskóli                
+Samfélagsleg ábyrgð   Lögmenn hafa skyldum að gegna gagnvart almenningi og  samfélaginu. Lögmönnum ber að efla rétt og hrinda órétti. Í því felst m.a. að stuðla að því að öllum sé gert kleift að njóta aðstoðar sjálfstæðs óháðs lögmanns við gæslu réttinda sinna gagnvart yfirvöldum og öðrum áhrifavöldum í samfélaginu.                                       Lögfræðistofa Reykjavíkur 
+We aim to…            … brew beer that challenges the concept of good beer and moves people. We do this by using the best ingredients and work with the most talented and creative minds around the world.                                                                                                                                                          Mikkeller Brewery         
+Fagmennska            Fagmennska felur í sér að verk séu unnin heiðarlega, á grundvelli fullnægjandi þekkingar og í samræmi við lög, reglur og viðurkennt verklag.                                                                                                                                                                                                  Vinnumálastofnun          
+Fagmennska            Askja leitast við að sinna umhverfinu á sem bestan hátt með innra og ytra skipulagi. Markmið Öskju er að bjóða framúrskarandi bifreiðar og veita þjónustu sem uppfyllir kröfur viðskiptavina um öryggi, umhverfishæfni og áreiðanleika.                                                                                                       Bílaumboðið Askja         
+Samstarfsmaðurinn     hjálpsamur                                                                                                                                                                                                                                                                                                                                    Rúmfatalagerinn           
+Sveigjanleiki         Við sjáum tækifæri í breytingum.                                                                                                                                                                                                                                                                                                              TM Software               
+2                     Sítrónusafi                                                                                                                                                                                                                                                                                                                                   Carlsberg Laboratory      
 
 ### ... and
 
